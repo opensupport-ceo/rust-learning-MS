@@ -2,7 +2,12 @@
 컬렉션 형식 사용
 
 튜플 외에도 Rust에는 여러 값을 하나의 단일 형식으로 그룹화할 수 있는 여러 다른 ‘복합 형식’이 있습니다.
+array:=> only same value type.
+vector:=> only same value type.
+tuple:=> different value type enabled. 
+hashMap:=> key : value
 */
+
 /*
 배열
 배열은 메모리에 순차적으로 저장되는 동일한 형식의 개체 컬렉션입니다. 
